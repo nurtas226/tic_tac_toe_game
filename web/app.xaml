@@ -1,0 +1,11 @@
+<Application x:Class="TicTacToe.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:TicTacToe"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="BackgroundColor" Color="#b2d8dc"/>
+        <SolidColorBrush x:Key="ButtonColor" Color="#4f799a"/>
+        <SolidColorBrush x:Key="LineColor" Color="MediumSeaGreen"/>
+    </Application.Resources>
+</Application>
